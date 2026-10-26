@@ -1,8 +1,11 @@
-// CONSTANTE
+/**
+ * Constante
+ * Siguinificado: o trabalho nao depende do tamanho da entrada.
+ * É sempre o mesmo número de passos, com 10 ou 1 milhao de itens.
+ * 
+*/
 
-// Qual é o número na posicao 3?
-const resposta = nums[3]; // 1 passo, tanto faz o tamanho do array
-
-// Já vi o número 7 antes?
-const jaVi = mapa.hash(7) // consulta em Map> também 1 passo
-
+// Pegar o primeiro item da lista
+function primeiro(lista) {
+    return lista[0] // 1 passo, sempre - nao importa o tamanho da lista
+}
