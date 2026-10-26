@@ -9,3 +9,5 @@
 function primeiro(lista) {
     return lista[0] // 1 passo, sempre - nao importa o tamanho da lista
 }
+
+const r = arr[0]
